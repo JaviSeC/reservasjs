@@ -162,26 +162,45 @@ textarea {
    }
 }
 
-#footer {
-   width: 100%;
-   height: 80px;
-   background: #0769a2;
+.conteiner-foot{
 
+   width: 100%;
+   margin: 1%;
+   height: auto;
    display: flex;
    justify-content: space-around;
+
+   
+}
+
+#footer {
+
+   width: 100%;
+   height: auto;
+   background: #0769a2;
+   display: flex;
+   justify-content: space-around;
+   
 }
 
 #footer img{
-   width: 50px;
+   width: 70px;
 }
 
 #footer .img-social-networks{
-   width: 100%;
+   width: 76%;
    height: auto;
    display: flex;
    justify-content: space-around;
 }
 
-.letrasFooter {
-text-align: center;
+#footer .letrasFooter a{
+   text-decoration: none;
+   color: black;
+}
+#footer .letrasFooter{
+   width: 30%;
+   height: auto;
+   text-align: center;
+   padding: 15px;
 }
