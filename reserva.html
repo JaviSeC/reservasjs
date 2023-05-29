@@ -5,24 +5,19 @@
     <meta charset="UTF-8">
     <title>Contacto</title>
     <link rel="stylesheet" href="estilos.css">
-    <!--Icon-Font-->
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles/style.css" type="text/css">
+    <link rel="stylesheet" href="styles/reserva.css" type="text/css">
 
 </head>
 
 <body>
 
     <header>
-        <!--Crear logo-->
         <img src="img/Logo.gif" alt="" width="189" height="75">
-        <!--Para el menú debemos hacer un input checkbox-->
         <input type="checkbox" id="check">
         <label for="check" class="mostrar-menu">
-            <!--El &#8811 es para el icono de hamburguesa para el menú-->
             &#8801
         </label>
-        <!--Creamos la etiqueta NAV para la navegación de la barra de menú-->
         <nav class="menu">
             <a href="#">Inicio</a>
             <a href="#">Sobre nosotros</a>
@@ -30,50 +25,109 @@
             <a href="reserva.html">reserva</a>
             <a href="#">Contactos</a>
             <label for="check" class="esconder-menu">
-                <!--El &#8811 es para el icono de hamburguesa para el menú-->
                 &#215
             </label>
         </nav>
     </header>
 
     <div class="container-form">
-        <div class="info-form">
-            <h2>Contáctanos</h2>
-            <p>"¿Listo para colaborar y crear juntos momentos inolvidables? Únase a nuestro parque de atracciones y
-                forme parte de un mundo mágico de alegría y diversión.
-                Estamos abiertos a la colaboración y listos para trabajar con usted para crear eventos únicos, eventos
-                corporativos, cumpleaños y mucho más. Juntos podemos dar vida a sus ideas y hacer que cada evento sea
-                realmente inolvidable. Creemos juntos la magia del entretenimiento".</p>
-            <a href="#"><i class="fa fa-phone"></i> 622-485-499</a>
-            <a href="#"><i class="fa fa-envelope"></i> fantasticworld@gmail.com</a>
-            <a href="#"><i class="fa fa-map-marked"></i> Mérida, España</a>
-        </div>
-        <div>
-            <form action="#" id="form" autocomplete="off">
-                <input id="nombre" type="text" name="nombre" placeholder="Tu Nombre" class="campo">
-                <input id="email" type="emal" name="email" placeholder="Tu Email" class="campo">
-                <textarea id="comentario" name="mensaje" placeholder="Tu Mensaje..."></textarea>
-                <input id="btn" type="submit" name="enviar" value="Enviar Mensaje" class="btn-enviar">
-            </form>
-            <script type="text/javascript" src="index.js"></script>
-            <script type="text/javascript"
-                src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
-            <script type="text/javascript">
-                emailjs.init('cES_yxL5WGp2xgrF2')
-            </script>
-            <img src="img/cerditoamedias.png" alt="">
+        <div class="titulo-btn-reservar">
+            <h2>Reserva</h2>
         </div>
+
+        <div class="form">
+
+            <div class="form-1">
+
+                <form action="#" id="form" autocomplete="off">
+
+                    <input id="nombre" type="text" name="nombre" placeholder="Tu Nombre" class="campo">
+                    <input id="apellido" type="text" name="apellido" placeholder="Tu Apellido" class="campo">
+                    <input id="parque-atracciones" type="text" name="parque-atracciones"
+                        placeholder="Parque de atracciones" class="campo">
+                    <input id="personas-mayores-edad" type="text" name="personas-mayores-edad"
+                        placeholder="Personas mayores de edad" class="campo">
+
+                </form>
+
+            </div>
+
+            <div class="form-2">
+
+                <form action="#" id="form" autocomplete="off">
+
+                    <input id="personas-menores-edad" type="personas-menores-edad" name="personas-menores-edad"
+                    placeholder="Niños" class="campo">
+                    <input id="fecha" type="text" name="fecha" placeholder="Fecha" class="campo">
+                    <input id="email" type="text" name="email" placeholder="Email" class="campo">
+                    <input id="telefono" type="text" name="telefono"
+                        placeholder="Telefono" class="campo">
+
+                </form>
+
+            </div>
+        </div>
+
+        <div class="titulo-btn-reservar">
+
+            <div>
+
+                <input id="btn" type="submit" name="enviar" value="Reservar" class="btn-enviar">
+
+            </div>
+
+        </div>
+
+
+        <div>
+
+            <div>
+
+                <div class="container-table-list-play">
+                    <table class="table-list-play">
+                        <tr>
+                            <td>Nombre</td>
+                            <td>Apellidos</td>
+                            <td>Parque de atracciones</td>
+                            <td>Persona mayores de edad</td>
+                            <td>Niños</td>
+                            <td>Fecha</td>
+                            <td>Email</td>
+                            <td>Telefono</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container-porky-texto">
+
+            <div class="container-porky">
+
+                <div class="porky">
+
+                    <img src="img/cerditoamedias.png" alt="">
+                    <p> <strong>¡Te esperamos!</strong></p>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
 
     <div id="footer">
 
-        <div class="conteiner-foot">
-            <div class="letrasFooter" style="background-color: antiquewhite;">
+        <div class="container-foot">
+            <div class="letrasFooter">
                 <a href="#">Created by "Super-Group"</a>
             </div>
 
-            <div class="img-social-networks" style="background-color: brown;">
+            <div class="img-social-networks">
 
                 <div>
                     <a href="#"><img src="img/you.png" alt=""></a>
@@ -89,7 +143,7 @@
 
             </div>
 
-            <div class="letrasFooter" style="background-color:aqua">
+            <div class="letrasFooter">
                 <a href="#">Politica de privacidad</a>
             </div>
         </div>
