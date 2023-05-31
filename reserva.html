@@ -4,16 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Contacto</title>
-    <link rel="stylesheet" href="estilos.css">
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/reserva.css" type="text/css">
 
 </head>
-
+<!-- comentario de prueba -->
 <body>
 
     <header>
-
         <img src="img/Logo.gif" alt="" width="189" height="75">
         <input type="checkbox" id="check">
         <label for="check" class="mostrar-menu">
@@ -29,7 +27,6 @@
                 &#215
             </label>
         </nav>
-
     </header>
 
     <div class="container-form">
@@ -44,12 +41,12 @@
 
                 <form action="#" id="form" autocomplete="off">
 
+                    <input id="nombre" type="text" name="nombre" placeholder="Tu Nombre" class="campo">
+                    <input id="apellido" type="text" name="apellido" placeholder="Tu Apellido" class="campo">
                     <input id="parque-atracciones" type="text" name="parque-atracciones"
                         placeholder="Parque de atracciones" class="campo">
                     <input id="personas-mayores-edad" type="text" name="personas-mayores-edad"
-                        placeholder="¿Cuantas personas mayores de edad son?" class="campo">
-                    <input id="personas-menores-edad" type="personas-menores-edad" name="personas-menores-edad"
-                        placeholder="¿Cuantos ñiños son?" class="campo">
+                        placeholder="Personas mayores de edad" class="campo">
 
                 </form>
 
@@ -59,12 +56,13 @@
 
                 <form action="#" id="form" autocomplete="off">
 
-                    <input id="fecha" type="text" name="fecha" placeholder="Fecha" class="campo"
-                        style="display: inline-block; width: 49.5%;">
-                    <input id="hora" type="text" name="hora" placeholder="Hora" class="campo"
-                        style="display: inline-block; width: 49.5%;">
+                    <input id="personas-menores-edad" type="personas-menores-edad" name="personas-menores-edad"
+                    placeholder="Niños" class="campo">
+                    <input id="fecha" type="text" name="fecha" placeholder="Fecha" class="campo" style="display: inline-block; width: 49.5%;">
+                    <input id="hora" type="text" name="hora" placeholder="Hora" class="campo" style="display: inline-block; width: 49.5%;">
                     <input id="email" type="text" name="email" placeholder="Email" class="campo">
-                    <input id="telefono" type="text" name="telefono" placeholder="Telefono" class="campo">
+                    <input id="telefono" type="text" name="telefono"
+                        placeholder="Telefono" class="campo">
 
                 </form>
 
@@ -73,9 +71,9 @@
 
         <div class="titulo-btn-reservar">
 
-            <div class="conteiner-btn">
+            <div>
 
-                <input id="btn" type="submit" name="enviar" value="Agregar" class="btn-enviar">
+                <input id="btn" type="submit" name="enviar" value="Reservar" class="btn-enviar">
 
             </div>
 
@@ -87,126 +85,21 @@
             <div>
 
                 <div class="container-table-list-play">
-
-                    <table id="table-list-play">
-
-                        <thead>
-
-                            <th>Parque de atracciones</th>
-                            <th>Precio May Edad</th>
-                            <th>Persona mayores de edad</th>
-                            <th>Precio niños</th>
-                            <th>Niños</th>
-                            <th>Fecha</th>
-                            <th>Hora</th>
-                            <th>Email</th>
-                            <th>Telefono </th>
-                            <th>Precio total </th>
-
-                        </thead>
-
-                        <tbody>
-
-                            <tr>
-
-                                <td>
-                                    Montaña Rusa
-                                </td>
-
-                                <td>
-                                    20 €
-                                </td>
-
-                                <td>
-                                    3
-                                </td>
-                                <td>
-                                    5 €
-                                </td>
-
-                                <td>
-                                    1
-                                </td>
-
-                                <td>
-                                    14/07/2023
-                                </td>
-
-                                <td>
-                                    16:30
-                                </td>
-
-                                <td>
-                                    brayan.farronan@gmail.com
-                                </td>
-
-                                <td>
-                                    622485499
-                                </td>
-
-                                <td>
-                                    x
-                                </td>
-
-
-                            </tr>
-
-                            <tr>
-
-                                <td>
-                                    Carros chocones
-                                </td>
-
-                                <td>
-                                    10 €
-                                </td>
-
-                                <td>
-                                    2
-                                </td>
-                                <td>
-                                    10 €
-                                </td>
-
-                                <td>
-                                    3
-                                </td>
-
-                                <td>
-                                    15/06/2023
-                                </td>
-
-                                <td>
-                                    09:00
-                                </td>
-
-                                <td>
-                                    Julio.chispa@gmail.com
-                                </td>
-
-                                <td>
-                                    658745549
-                                </td>
-
-                                <td>
-                                    x
-                                </td>
-
-                            </tr>
-
-                        </tbody>
-
+                    <table class="table-list-play">
+                        <tr>
+                            <td>Nombre</td>
+                            <td>Apellidos</td>
+                            <td>Parque de atracciones</td>
+                            <td>Persona mayores de edad</td>
+                            <td>Niños</td>
+                            <td>Fecha</td>
+                            <td>Email</td>
+                            <td>Telefono</td>
+                        </tr>
                     </table>
-
                 </div>
 
             </div>
-
-        </div>
-
-        <div class="conteiner-btn">
-
-            <input id="btn-consult" type="submit" name="consultar" value="Confirmar Reserva" class="btn-consult">
 
         </div>
 
@@ -217,7 +110,7 @@
                 <div class="porky">
                     <p> <strong>¡Te esperamos!</strong></p>
                     <img src="img/cerditoamedias.png" alt="">
-
+                    
 
                 </div>
 
@@ -230,7 +123,6 @@
     <div id="footer">
 
         <div class="container-foot">
-
             <div class="letrasFooter">
                 <a href="#">Created by "Super-Group"</a>
             </div>
@@ -254,10 +146,11 @@
             <div class="letrasFooter">
                 <a href="#">Politica de privacidad</a>
             </div>
-
         </div>
 
     </div>
+
+    <link rel="stylesheet" href="scripts/contacto.js" type="text/css">
 </body>
 
 </html>
