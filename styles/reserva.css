@@ -163,10 +163,9 @@ th {
 }
 
 /* Botones */
-.titulo-btn-reservar{
+.titulo-btn-reservar, .conteiner-btn-consultar-reserva{
 
-   display: flex;
-   justify-content: center;
+   text-align: center;
 
 }
 
