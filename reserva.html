@@ -44,12 +44,12 @@
 
                 <form action="#" id="form" autocomplete="off">
 
-                    <input id="nombre" type="text" name="nombre" placeholder="Tu Nombre" class="campo">
-                    <input id="apellido" type="text" name="apellido" placeholder="Tu Apellido" class="campo">
                     <input id="parque-atracciones" type="text" name="parque-atracciones"
                         placeholder="Parque de atracciones" class="campo">
                     <input id="personas-mayores-edad" type="text" name="personas-mayores-edad"
                         placeholder="¿Cuantas personas mayores de edad son?" class="campo">
+                    <input id="personas-menores-edad" type="personas-menores-edad" name="personas-menores-edad"
+                        placeholder="¿Cuantos ñiños son?" class="campo">
 
                 </form>
 
@@ -59,8 +59,6 @@
 
                 <form action="#" id="form" autocomplete="off">
 
-                    <input id="personas-menores-edad" type="personas-menores-edad" name="personas-menores-edad"
-                        placeholder="¿Cuantos ñiños son?" class="campo">
                     <input id="fecha" type="text" name="fecha" placeholder="Fecha" class="campo"
                         style="display: inline-block; width: 49.5%;">
                     <input id="hora" type="text" name="hora" placeholder="Hora" class="campo"
@@ -77,13 +75,7 @@
 
             <div class="conteiner-btn">
 
-                <input id="btn" type="submit" name="enviar" value="Reservar" class="btn-enviar">
-
-            </div>
-
-            <div class="conteiner-btn">
-
-                <input id="btn-consult" type="submit" name="consultar" value="Consultar Reserva" class="btn-consult">
+                <input id="btn" type="submit" name="enviar" value="Agregar" class="btn-enviar">
 
             </div>
 
@@ -99,15 +91,18 @@
                     <table id="table-list-play">
 
                         <thead>
-                            <th>Nombre</th>
-                            <th>Apellidos</th>
+
                             <th>Parque de atracciones</th>
+                            <th>Precio May Edad</th>
                             <th>Persona mayores de edad</th>
+                            <th>Precio niños</th>
                             <th>Niños</th>
                             <th>Fecha</th>
                             <th>Hora</th>
                             <th>Email</th>
                             <th>Telefono </th>
+                            <th>Precio total </th>
+
                         </thead>
 
                         <tbody>
@@ -115,19 +110,18 @@
                             <tr>
 
                                 <td>
-                                    Anthony
-                                </td>
-
-                                <td>
-                                    Farroñan Carranza
-                                </td>
-
-                                <td>
                                     Montaña Rusa
                                 </td>
 
                                 <td>
+                                    20 €
+                                </td>
+
+                                <td>
                                     3
+                                </td>
+                                <td>
+                                    5 €
                                 </td>
 
                                 <td>
@@ -150,24 +144,28 @@
                                     622485499
                                 </td>
 
+                                <td>
+                                    x
+                                </td>
+
+
                             </tr>
 
                             <tr>
-
-                                <td>
-                                    Julio
-                                </td>
-
-                                <td>
-                                    Chispa Calderón
-                                </td>
 
                                 <td>
                                     Carros chocones
                                 </td>
 
                                 <td>
+                                    10 €
+                                </td>
+
+                                <td>
                                     2
+                                </td>
+                                <td>
+                                    10 €
                                 </td>
 
                                 <td>
@@ -190,6 +188,10 @@
                                     658745549
                                 </td>
 
+                                <td>
+                                    x
+                                </td>
+
                             </tr>
 
                         </tbody>
@@ -199,6 +201,12 @@
                 </div>
 
             </div>
+
+        </div>
+
+        <div class="conteiner-btn">
+
+            <input id="btn-consult" type="submit" name="consultar" value="Confirmar Reserva" class="btn-consult">
 
         </div>
 
