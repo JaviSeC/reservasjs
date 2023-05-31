@@ -109,7 +109,7 @@ header {
    margin: auto;
    margin-top: 90px;
    margin-bottom: 90px;
-   background: #dbdbdb
+   background: #dbdbdb;
 
 }
 
@@ -128,7 +128,8 @@ header {
    padding: 15px;
 }
 
-.btn-enviar {
+.btn-enviar,
+.btn-consult {
 
    padding: 15px;
    font-size: 16px;
@@ -147,19 +148,35 @@ header {
    padding: 10px;
 }
 
-.table-list-play {
+#table-list-play {
    margin: 30px;
    text-align: center;
    border-collapse: collapse;
-   border: #055786 3px solid;
+   border: 3px solid #055786;
 }
 
-.table-list-play td, th{
+#table-list-play td,
+th {
    width: 1000px;
    height: 60px;
-   border: #055786 3px solid;
+   border: 3px solid #055786;
 }
 
+/* Botones */
+.titulo-btn-reservar{
+
+   display: flex;
+   justify-content: center;
+
+}
+
+.conteiner-btn{
+   width: 15%;
+   height: auto;
+   text-align: center;
+}
+
+/* Porky y mensaje de te esperamos */
 .container-porky-texto {
    margin: 20px;
 }
@@ -170,20 +187,16 @@ header {
 
 }
 
-.container-porky-texto .porky img{
-   
+.container-porky-texto .porky img {
+
    width: 25%;
 
 }
 
-.container-porky-texto .porky p{
+.container-porky-texto .porky p {
    padding: 10px;
    font-size: 300%;
 
-}
-
-.titulo-btn-reservar {
-   text-align: center;
 }
 
 .container-form h2 {
@@ -204,21 +217,22 @@ textarea {
 
 }
 
-.container-foot {
-
-   width: 100%;
-   margin: 1%;
-   height: auto;
-   display: flex;
-   justify-content: space-around;
-
-}
-
+/* Footer */
 #footer {
 
    width: 100%;
    height: auto;
    background: #0769a2;
+   display: flex;
+   justify-content: space-around;
+
+}
+
+.container-foot {
+
+   width: 100%;
+   margin: 1%;
+   height: auto;
    display: flex;
    justify-content: space-around;
 
