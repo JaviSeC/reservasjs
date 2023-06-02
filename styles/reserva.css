@@ -121,14 +121,51 @@ header {
 }
 
 .form-1 {
-   padding: 15px;
+   /* background-color: #AED6F1; */
+   width: 100%;
 }
 
 .form-2 {
-   padding: 15px;
+   /* background-color: #055786; */
+   width: 100%;
 }
 
-.btn-enviar,
+.input-num {
+   text-align: center;
+}
+
+.data {
+   display: flex;
+   margin-left: 50%;
+   margin-top: 2%;
+}
+
+.data-dos{
+   display: flex;
+   justify-content: center;
+   margin-top: 2%;
+}
+
+#data-niños {
+   margin-top: 3%;
+   margin-left: 30%;
+}
+
+.conteiner-data {
+   display: flex;
+}
+
+.space-data-to-person{
+
+margin-left: 10px;
+
+}
+
+#conteiner-btn-agregar{
+   margin-top: 3%
+}
+
+.btn-agregar,
 .btn-consult {
 
    padding: 15px;
@@ -163,13 +200,14 @@ th {
 }
 
 /* Botones */
-.titulo-btn-reservar, .conteiner-btn-consultar-reserva{
+.titulo-btn-reservar,
+.conteiner-btn-consultar-reserva {
 
    text-align: center;
 
 }
 
-.conteiner-btn{
+.conteiner-btn {
    width: 15%;
    height: auto;
    text-align: center;
