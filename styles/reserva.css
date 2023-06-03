@@ -1,0 +1,305 @@
+* {
+
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Open Sans', sans-serif;
+
+}
+
+header {
+
+   height: 50x;
+   background: #AED6F1;
+   background: #0769a2;
+   padding: 0 50px;
+   color: black;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.logo {
+
+   text-transform: uppercase;
+   font-weight: 200;
+
+}
+
+.menu a {
+
+   color: black;
+   text-transform: uppercase;
+   text-decoration: none;
+   padding: 0 10px;
+   transition: 0.4s;
+
+}
+
+.mostrar-menu,
+.esconder-menu {
+
+   font-size: 30px;
+   cursor: pointer;
+   display: none;
+   transition: 0.4s;
+
+}
+
+.mostrar-menu {
+   order: 1;
+}
+
+.menu a:hover,
+.mostrar-menu a:hover,
+.esconder-menu a:hover {
+
+   color: #FDFEFE;
+
+}
+
+#check {
+   display: none;
+}
+
+/* Responsive */
+@media(max-width:768px) {
+
+   .mostrar-menu,
+   .esconder-menu {
+      display: block;
+   }
+
+   .menu {
+
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #AED6F1;
+      right: -100%;
+      top: 0;
+      text-align: center;
+      padding: 100px 0px;
+      z-index: 100;
+      transition: 0.8s;
+
+   }
+
+   .menu a {
+      display: block;
+      padding: 20px;
+   }
+
+   .esconder-menu {
+      position: absolute;
+      top: 40px;
+      right: 40px;
+   }
+
+   #check:checked~.menu {
+      right: 0;
+   }
+}
+
+.container-form {
+
+   width: 100%;
+   max-width: 1100px;
+   margin: auto;
+   margin-top: 90px;
+   margin-bottom: 90px;
+   background: #dbdbdb;
+
+}
+
+/* Hacer tener 2 formularios */
+.form {
+   margin: 10px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.form-1 {
+   /* background-color: #AED6F1; */
+   width: 100%;
+}
+
+.form-2 {
+   /* background-color: #055786; */
+   width: 100%;
+}
+
+.input-num {
+   text-align: center;
+}
+
+.data {
+   display: flex;
+   margin-left: 50%;
+   margin-top: 2%;
+}
+
+.data-dos{
+   display: flex;
+   justify-content: center;
+   margin-top: 2%;
+}
+
+#data-niños {
+   margin-top: 3%;
+   margin-left: 30%;
+}
+
+.conteiner-data {
+   display: flex;
+}
+
+.space-data-to-person{
+
+margin-left: 10px;
+
+}
+
+#conteiner-btn-agregar{
+   margin-top: 3%
+}
+
+.btn-agregar,
+.btn-consult {
+
+   padding: 15px;
+   font-size: 16px;
+   border: none;
+   outline: 0px;
+   background: #055786;
+   color: white;
+   border-radius: 3px;
+   cursor: pointer;
+
+}
+
+/* Tabla */
+.container-table-list-play {
+   width: 100%;
+   padding: 10px;
+}
+
+#table-list-play {
+   margin: 30px;
+   text-align: center;
+   border-collapse: collapse;
+   border: 3px solid #055786;
+}
+
+#table-list-play td,
+th {
+   width: 1000px;
+   height: 60px;
+   border: 3px solid #055786;
+}
+
+/* Botones */
+.titulo-btn-reservar,
+.conteiner-btn-consultar-reserva {
+
+   text-align: center;
+
+}
+
+.conteiner-btn {
+   width: 15%;
+   height: auto;
+   text-align: center;
+}
+
+/* Porky y mensaje de te esperamos */
+.container-porky-texto {
+   margin: 20px;
+}
+
+.container-porky-texto .porky {
+
+   text-align: center;
+
+}
+
+.container-porky-texto .porky img {
+
+   width: 25%;
+
+}
+
+.container-porky-texto .porky p {
+   padding: 10px;
+   font-size: 300%;
+
+}
+
+.container-form h2 {
+   padding: 15px;
+   font-size: 35px
+}
+
+.container-form form .campo,
+textarea {
+
+   width: 100%;
+   padding: 15px 10px;
+   font-size: 16px;
+   border: 1px solid #dbdbdb;
+   margin-bottom: 20px;
+   border-radius: 3px;
+   outline: 0px;
+
+}
+
+/* Footer */
+#footer {
+
+   width: 100%;
+   height: auto;
+   background: #0769a2;
+   display: flex;
+   justify-content: space-around;
+
+}
+
+.container-foot {
+
+   width: 100%;
+   margin: 1%;
+   height: auto;
+   display: flex;
+   justify-content: space-around;
+
+}
+
+#footer img {
+   width: 60px;
+}
+
+#footer .img-social-networks {
+
+   width: 76%;
+   height: auto;
+   display: flex;
+   justify-content: space-between;
+
+}
+
+#footer .letrasFooter a {
+
+   text-decoration: none;
+   color: black;
+
+}
+
+#footer .letrasFooter {
+
+   width: 30%;
+   height: auto;
+   text-align: center;
+   padding: 15px;
+
+}
