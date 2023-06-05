@@ -140,7 +140,7 @@ header {
    margin-top: 2%;
 }
 
-.data-dos{
+.data-dos {
    display: flex;
    justify-content: center;
    margin-top: 2%;
@@ -155,13 +155,11 @@ header {
    display: flex;
 }
 
-.space-data-to-person{
-
-margin-left: 10px;
-
+.space-data-to-person {
+   margin-left: 10px;
 }
 
-#conteiner-btn-agregar{
+#conteiner-btn-agregar {
    margin-top: 3%
 }
 
