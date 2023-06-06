@@ -49,10 +49,6 @@ function adultAndChildPrice() {
 
 }
 
-let cont = 1;
-
-let overallTotalPrice = 0;
-
 function addData() {
 
     let plays = document.getElementById("play-tb").value;
@@ -81,7 +77,6 @@ function addData() {
 
             var table = document.getElementById('table-list-play');
             var newRow = table.insertRow(table.rows.length);
-            newRow.id = "fila-" + cont;
 
             var cell1 = newRow.insertCell(0);
             cell1.innerHTML = plays;
@@ -125,9 +120,6 @@ function addData() {
             document.getElementById('old-people-age').innerHTML = '0';
             document.getElementById('precio-niño').innerHTML = '0';
             document.getElementById('total-price').innerHTML = valores;
-
-
-            cont++;
         }
     }
 
