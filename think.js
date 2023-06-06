@@ -1,4 +1,24 @@
-const dateControl = document.querySelector('input[type="date"]');
-dateControl.value = '2023-06-01';
-console.log(dateControl.value); // prints "2017-06-01"
-console.log(dateControl.valueAsNumber); // prints 1496275200000, a JavaScript timestamp (ms)
+
+function addRow(){    
+
+let plays = document.getElementById('play-tb').value;
+let fecha = document.getElementById('start-date').value;
+let old = document.getElementById('old-people-age').value;
+let boys = document.getElementById('children').value;
+
+let table = document.getElementById('table-list-play');
+
+let newRow = table.insertRow();
+let playsCell = newRow.incertCell();
+let fechaCell = newRow.incertCell();
+let oldCell = newRow.incerCell();
+let boysCell = newRow.incertCell();
+
+playsCell.innerHTML = plays;
+fechaCell.innerHTML = fecha;
+oldCell.innerHTML = old;
+boysCell.innerHTML = boys;
+
+//alert("onclickfuncionando")
+
+}
