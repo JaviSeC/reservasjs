@@ -112,21 +112,11 @@ function addData() {
             for (var i = 1; i < table.rows.length; i++) {
                 var fila = table.rows[i];
 
-                // Obtener la celda de la columna deseada
                 var celda = fila.cells[colum];
 
-                // Obtener el valor de la celda y sumarlo
                 var valor = celda.textContent;
                 valores += parseFloat(valor);
             }
-
-            let botonEliminar = document.createElement('button');
-            botonEliminar.textContent = 'Eliminar';
-            botonEliminar.addEventListener('click', function () {
-                eliminarFila(fila.id);
-            });
-
-            cell8.appendChild(botonEliminar);
 
             overallTotalPrice = document.getElementById('total-price').textContent = valores + " €";
 
@@ -141,14 +131,4 @@ function addData() {
         }
     }
 
-}
-
-function eliminarFila(filaId) {
-
-    var fila = document.getElementById(filaId);
-
-
-    overallTotalPrice = parseFloat(overallTotalPrice) - parseFloat(fila.getElementsByTagName("td")[6].innerText);
-    document.getElementById('total-price').innerHTML = overallTotalPrice;
-    fila.remove();
 }
