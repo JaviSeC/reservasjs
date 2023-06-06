@@ -34,8 +34,9 @@
 |
 └── carpeta5/styles
 
-(https://app.diagrams.net/?src=about)
-
 </code>
 </pre>
 </p>
+![Texto alternativo]()
+./img/readme.png
+./img/flujo.png
