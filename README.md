@@ -11,6 +11,7 @@
 <h3>Estructura de Archivo</h3>
 
 <p>
+<pre>
 Proyecto Reserva
 ├── carpeta1/reserva.html
 │   ├── head
@@ -28,4 +29,5 @@ Proyecto Reserva
 └── carpeta3/styles
 |
 |
+</pre>
 </p>
