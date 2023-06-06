@@ -10,24 +10,22 @@
 
 <h3>Estructura de Archivo</h3>
 
-<pre>
-<code>
+<p>
 Proyecto Reserva
 ├── carpeta1/reserva.html
-│   ├── head.txt
-│   ├── body.txt
-|   ├── div.txt
-|   ├── table.txt
-|   ├── fotter.txt
+│   ├── head
+│   ├── body
+|   ├── div
+|   ├── table
+|   ├── fotter
 │   └── subcarpeta/img
-│       ├── archivo3.txt
-│       └── archivo4.txt
-|       └── img 5. txt
-|       └── img 6. txt
+│       ├── archivo3
+│       └── archivo4
+|       └── img 5
+|       └── img 6
 ├── carpeta2/Scripts
 │   ├── reserva.js
 └── carpeta3/styles
 |
 |
-</code>
-</pre>
+</p>
