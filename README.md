@@ -21,5 +21,11 @@ esta informacion es 100% espontánea y ocurrente jjajaja
 :construction: Proyecto en construcción :construction:
 </h4>
 
+![html-5](https://github.com/JaviSeC/reservasjs/assets/132766257/38de97c7-773f-4c51-9693-3c7091013bb7)
 
-   
+
+![css-3](https://github.com/JaviSeC/reservasjs/assets/132766257/aeed1ec9-3d72-480f-8fb0-b16adb9aeb15)
+
+![js](https://github.com/JaviSeC/reservasjs/assets/132766257/0817c8cd-3509-4756-87ff-da4415d1dcaf)
+
+
