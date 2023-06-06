@@ -11,7 +11,7 @@ Hemos creado esta página para que el cliente logre hacer su reservación en nue
   
 esta informacion es 100% espontánea y ocurrente jjajaja
 
-
-<p align="center">
-   <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
+<p align="center"> 
+ <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
    </p>
+   
