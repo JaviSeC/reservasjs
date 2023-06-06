@@ -7,7 +7,7 @@
 
 <h3>Description:</h3
   
-Hemos creado esta página para que el cliente logre hacer su reservación en nuestro parque de diversiones <strong> Fantastic World. </strong> Para cualquiera de nuestros podrá ingresar sus datos, cuantas personas adultas, y cuantas menores de edad, para qué día y por supuesto, la fecha, hemos intentado hacer nuestra plataforma de la mejor manera para que sea entendible para ti!
+Hemos creado esta página en la que el cliente hará su reservación en nuestro parque de diversiones <strong> Fantastic World. </strong> Para cualquiera de nuestros juegos podrá ingresar sus datos, cuantas personas adultas, y cuantas menores de edad, para qué día y por supuesto, la fecha, hemos intentado hacer nuestra plataforma de la mejor manera para que sea entendible para ti!
   
 esta informacion es 100% espontánea y ocurrente jjajaja
 
