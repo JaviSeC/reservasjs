@@ -12,7 +12,7 @@
 
 <p>
 <pre>
-Proyecto Reserva
+<h4>Proyecto Reserva</h4>
 ├── carpeta1/reserva.html
 │   ├── head
 │   ├── body
