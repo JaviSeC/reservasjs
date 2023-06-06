@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Contacto</title>
-    <!-- <link rel="stylesheet" href="estilos.css"> -->
-    <!-- <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/reserva.css" type="text/css">
 
 </head>
@@ -37,7 +36,7 @@
             <h2>Reserva</h2>
         </div>
 
-        <div id="dataBase" class="form">
+        <div class="form">
 
             <div class="form-1">
 
@@ -53,7 +52,7 @@
 
                             <div style="margin-bottom: 3%;">
 
-                                <select id="play-tb" name="select-juego">
+                                <select name="select-juego">
                                     <option value="">Selecciona un juego</option>
                                     <option>Juego 1</option>
                                     <option>Juego 2</option>
@@ -103,7 +102,7 @@
                             </div>
 
                             <div >
-                                <input id="old-people-age" type="number" name="personas-mayores-edad"
+                                <input id="personas-mayores-edad" type="number" name="personas-mayores-edad"
                                     class="input-num" max="50" min="1">
                             </div>
 
@@ -112,7 +111,7 @@
                             </div>
 
                             <div class="space-data-to-person">
-                                <label id="price" for="">€. Por persona</label>
+                                <label for="">€. Por persona</label>
                             </div>
 
                         </div>
@@ -128,7 +127,7 @@
                             </div>
 
                             <div>
-                                <input id="children" type="number" name="niños" class="input-num" max="50" min="1">
+                                <input id="input-niños" type="number" name="niños" class="input-num" max="50" min="1">
                             </div>
 
                             <div class="space-data-to-person">
@@ -152,8 +151,7 @@
 
             <div id="conteiner-btn-agregar">
 
-                <input id="btn" type="button" name="enviar" value="Agregar" class="btn-agregar" onclick="addRow()">
-                <!-- <button type="button" >Agregar</button> -->
+                <input id="btn" type="submit" name="enviar" value="Agregar" class="btn-agregar">
 
             </div>
 
@@ -164,7 +162,7 @@
 
             <div>
 
-                <div id="list" class="container-table-list-play">
+                <div class="container-table-list-play">
 
                     <table id="table-list-play">
 
@@ -176,12 +174,74 @@
                             <th>Niños</th>
                             <th>Precio total niño</th>
                             <th>Precio juego </th>
-                        </thead> 
+                        </thead>
 
                         <tbody>
-                            
-                          </tbody>                                                
-                
+
+                            <tr>
+
+                                <td>
+                                    Juego 1
+                                </td>
+
+                                <td>
+                                    14/07/2023
+                                </td>
+
+                                <td>
+                                    3
+                                </td>
+
+                                <td>
+                                    90 €.
+                                </td>
+
+                                <td>
+                                    1
+                                </td>
+
+                                <td>
+                                    15 €.
+                                </td>
+
+                                <td>
+                                    105 €.
+                                </td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>
+                                    Juego 2
+                                </td>
+
+                                <td>
+                                    14/07/2023
+                                </td>
+
+                                <td>
+                                    2
+                                </td>
+
+                                <td>
+                                    60 €.
+                                </td>
+
+                                <td>
+                                    0
+                                </td>
+
+                                <td>
+                                    0 €.
+                                </td>
+
+                                <td>
+                                    60 €.
+                                </td>
+
+                            </tr>
+                        </tbody>
 
                     </table>
 
@@ -246,9 +306,7 @@
 
     </div>
 
-    <!-- <link rel="stylesheet" type="text/css"> -->
-
-    <script src="scripts/reserva.js"></script>
+    <link rel="stylesheet" href="scripts/contacto.js" type="text/css">
 </body>
 
 </html>
