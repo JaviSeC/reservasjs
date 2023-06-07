@@ -21,13 +21,11 @@ esta informacion es 100% espontánea y ocurrente jjajaja
 :construction: Proyecto en construcción :construction:
 </h4>
 
-![html-5](https://github.com/JaviSeC/reservasjs/assets/132766257/38de97c7-773f-4c51-9693-3c7091013bb7)  ![css-3](https://github.com/JaviSeC/reservasjs/assets/132766257/aeed1ec9-3d72-480f-8fb0-b16adb9aeb15)  ![js](https://github.com/JaviSeC/reservasjs/assets/132766257/0817c8cd-3509-4756-87ff-da4415d1dcaf)
-
- 
 ![readme5](https://github.com/JaviSeC/reservasjs/assets/132651136/65c7313c-429b-4f58-b43b-db86a9b5e6c2)
+
 <ul>
   <li>Visual Studio Code.</li>
-  <li>GiHub</li>
+  <li>GitHub</li>
   <li>JavaScript</li>
   <li>Trello.</li>
   <li>Figma</li>
@@ -36,18 +34,35 @@ esta informacion es 100% espontánea y ocurrente jjajaja
 </ul>
 
 
+![html-5](https://github.com/JaviSeC/reservasjs/assets/132766257/38de97c7-773f-4c51-9693-3c7091013bb7)  ![css-3](https://github.com/JaviSeC/reservasjs/assets/132766257/aeed1ec9-3d72-480f-8fb0-b16adb9aeb15)  ![js](https://github.com/JaviSeC/reservasjs/assets/132766257/0817c8cd-3509-4756-87ff-da4415d1dcaf)
+
+ 
+
 <h3>Instalación</h3>
 <ol>
-  <li>Clonar el repositorio.</li>
-  <li>Crear un carpeta para que el repositorio se descargue en tu local.</li>
-  <li>Abrir la terminal code .</li>
+  <li>Abre tu navegador web y ve a la GitHub en https://github.com.</li>
+  <li>Haz clic en el botón "Sign up" si aún no tienes una cuenta de GitHub.Si ya tienes cuenta  clic en "Sign in".</li>
+  <li>Completa el proceso de registro o inicio de sesión .</li>
+  <li>Crear un nuevo repositorio haciendo clic en el botón "New" en la página principal de GitHub.</li>
+  <li>Si deseas descargar un repositorio existente, puedes buscar el repositorio en la barra de búsqueda en la parte superior de la página.</li>
+  <li>Proporciona un nombre al repositorio nuevo y una descripción opcional. Puedes elegir si el repositorio será público o privado.</li>
+  <li>Haz clic en el botón "Create repository" para crear el repositorio.</li>
+  <li>En la página del repositorio, verás la URL del repositorio.</li>
+  <li>Copia el URL haciendo clic en el botón "Code" y seleccionando la opción "Copy" o copiando directamente la URL en la barra de direcciones del navegador.</li>
+  <li>Abre una terminal o línea de comandos en tu computadora y navega hasta el directorio donde deseas descargar el repositorio.</li>
+  <li>En la terminal, utiliza el comando git clone seguido de la URL del repositorio para descargar el repositorio. </li>
+  <li>El repositorio se descargará en tu directorio actual y estarás listo para trabajar con él localmente.</li>
+  <li>Abre tu navegador web y ve al sitio web oficial de Visual Studio Code en https://code.visualstudio.com/.</li>
+  <li>Haz clic en el botón de descarga para iniciar la descarga del archivo de instalación de Visual Studio Code.</li>
+  <li>Una vez que se haya completado la descarga, ejecuta el archivo de instalación.</li>
+ <li>Al ejecutar el comando, Visual Studio Code se abrirá y mostrará el contenido del directorio en su interfaz. Ahora puedes editar, navegar y trabajar con los archivos y carpetas en Visual Studio Code.</li>
 </ol>
 
-<h3>Estructura de Archivo</h3>
+<h3>Arquitectura de Archivo</h3>
 
 <h4>Proyecto Reserva</h4>
 
-![okflujo](https://github.com/JaviSeC/reservasjs/assets/132651136/2c3724c0-f9cd-46f4-90f1-f97278f12da1)
+
 
 <h3>Autores:</h3>
 <ol>
