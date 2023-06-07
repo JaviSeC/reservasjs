@@ -49,10 +49,10 @@ esta informacion es 100% espontánea y ocurrente jjajaja
 
 <h4>Proyecto Reserva</h4>
 
-![okflujo](https://github.com/JaviSeC/reservasjs/assets/132651136/2c3724c0-f9cd-46f4-90f1-f97278f12da1)
 
-<h3 align=center>Autores:</h3>
-<ol align= center>
+
+<h3>Autores:</h3>
+<ol>
   <li><strong>Anthony Brayan.</strong></li>
   <li><strong>Rebeca Poma.</strong></li>
   <li><strong>Javier Serrano.</strong></li>
