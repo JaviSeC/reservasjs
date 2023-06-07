@@ -23,7 +23,7 @@ esta informacion es 100% espontánea y ocurrente jjajaja
 
 ![readme5](https://github.com/JaviSeC/reservasjs/assets/132651136/65c7313c-429b-4f58-b43b-db86a9b5e6c2)
 
-<ul align=center>
+<ul>
   <li>Visual Studio Code.</li>
   <li>GiHub</li>
   <li>JavaScript</li>
