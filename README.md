@@ -21,6 +21,8 @@ esta informacion es 100% espontánea y ocurrente jjajaja
 :construction: Proyecto en construcción :construction:
 </h4>
 
+![readme5](https://github.com/JaviSeC/reservasjs/assets/132651136/65c7313c-429b-4f58-b43b-db86a9b5e6c2)
+
 <ul align=center>
   <li>Visual Studio Code.</li>
   <li>GiHub</li>
@@ -35,7 +37,6 @@ esta informacion es 100% espontánea y ocurrente jjajaja
 ![html-5](https://github.com/JaviSeC/reservasjs/assets/132766257/38de97c7-773f-4c51-9693-3c7091013bb7)  ![css-3](https://github.com/JaviSeC/reservasjs/assets/132766257/aeed1ec9-3d72-480f-8fb0-b16adb9aeb15)  ![js](https://github.com/JaviSeC/reservasjs/assets/132766257/0817c8cd-3509-4756-87ff-da4415d1dcaf)
 
  
-![readme5](https://github.com/JaviSeC/reservasjs/assets/132651136/65c7313c-429b-4f58-b43b-db86a9b5e6c2)
 
 <h3>Instalación</h3>
 <ol>
@@ -44,7 +45,7 @@ esta informacion es 100% espontánea y ocurrente jjajaja
   <li>Abrir la terminal code .</li>
 </ol>
 
-<h3>Estructura de Archivo</h3>
+<h3>Arquitectura de Archivo</h3>
 
 <h4>Proyecto Reserva</h4>
 
