@@ -25,7 +25,7 @@ esta informacion es 100% espontánea y ocurrente jjajaja
 
 <ul>
   <li>Visual Studio Code.</li>
-  <li>GiHub</li>
+  <li>GitHub</li>
   <li>JavaScript</li>
   <li>Trello.</li>
   <li>Figma</li>
@@ -47,13 +47,15 @@ esta informacion es 100% espontánea y ocurrente jjajaja
   <li>Si deseas descargar un repositorio existente, puedes buscar el repositorio en la barra de búsqueda en la parte superior de la página.</li>
   <li>Proporciona un nombre al repositorio nuevo y una descripción opcional. Puedes elegir si el repositorio será público o privado.</li>
   <li>Haz clic en el botón "Create repository" para crear el repositorio.</li>
-  <li>Haz clic en el botón "Create repository" para crear el repositorio.</li>
   <li>En la página del repositorio, verás la URL del repositorio.</li>
-  <li>Copia el URL haciendo clic en el botón "Code" y seleccionando la opción "Copy" o copiando directamente la URL en la barra de direcciones del navegador.</li
+  <li>Copia el URL haciendo clic en el botón "Code" y seleccionando la opción "Copy" o copiando directamente la URL en la barra de direcciones del navegador.</li>
   <li>Abre una terminal o línea de comandos en tu computadora y navega hasta el directorio donde deseas descargar el repositorio.</li>
   <li>En la terminal, utiliza el comando git clone seguido de la URL del repositorio para descargar el repositorio. </li>
   <li>El repositorio se descargará en tu directorio actual y estarás listo para trabajar con él localmente.</li>
- <li></li>
+  <li>Abre tu navegador web y ve al sitio web oficial de Visual Studio Code en https://code.visualstudio.com/.</li>
+  <li>Haz clic en el botón de descarga para iniciar la descarga del archivo de instalación de Visual Studio Code.</li>
+  <li>Una vez que se haya completado la descarga, ejecuta el archivo de instalación.</li>
+ <li>Al ejecutar el comando, Visual Studio Code se abrirá y mostrará el contenido del directorio en su interfaz. Ahora puedes editar, navegar y trabajar con los archivos y carpetas en Visual Studio Code.</li>
 </ol>
 
 <h3>Arquitectura de Archivo</h3>
