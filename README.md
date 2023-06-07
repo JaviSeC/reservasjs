@@ -40,9 +40,20 @@ esta informacion es 100% espontánea y ocurrente jjajaja
 
 <h3>Instalación</h3>
 <ol>
-  <li>Clonar el repositorio.</li>
-  <li>Crear un carpeta para que el repositorio se descargue en tu local.</li>
-  <li>Abrir la terminal code .</li>
+  <li>Abre tu navegador web y ve a la GitHub en https://github.com.</li>
+  <li>Haz clic en el botón "Sign up" si aún no tienes una cuenta de GitHub.Si ya tienes cuenta  clic en "Sign in".</li>
+  <li>Completa el proceso de registro o inicio de sesión .</li>
+  <li>Crear un nuevo repositorio haciendo clic en el botón "New" en la página principal de GitHub.</li>
+  <li>Si deseas descargar un repositorio existente, puedes buscar el repositorio en la barra de búsqueda en la parte superior de la página.</li>
+  <li>Proporciona un nombre al repositorio nuevo y una descripción opcional. Puedes elegir si el repositorio será público o privado.</li>
+  <li>Haz clic en el botón "Create repository" para crear el repositorio.</li>
+  <li>Haz clic en el botón "Create repository" para crear el repositorio.</li>
+  <li>En la página del repositorio, verás la URL del repositorio.</li>
+  <li>Copia el URL haciendo clic en el botón "Code" y seleccionando la opción "Copy" o copiando directamente la URL en la barra de direcciones del navegador.</li
+  <li>Abre una terminal o línea de comandos en tu computadora y navega hasta el directorio donde deseas descargar el repositorio.</li>
+  <li>En la terminal, utiliza el comando git clone seguido de la URL del repositorio para descargar el repositorio. </li>
+  <li>El repositorio se descargará en tu directorio actual y estarás listo para trabajar con él localmente.</li>
+ <li></li>
 </ol>
 
 <h3>Arquitectura de Archivo</h3>
