@@ -14,7 +14,7 @@
 <ol>
   <li>Clonar el repositorio.</li>
   <li>Crear un carpeta para que el repositorio se descargue en tu local.</li>
-  <li>Elemento 3</li>
+  <li>Abrir la terminal code .</li>
 </ol>
 
 <h3>Estructura de Archivo</h3>
