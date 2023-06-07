@@ -21,7 +21,7 @@ esta informacion es 100% espontánea y ocurrente jjajaja
 :construction: Proyecto en construcción :construction:
 </h4>
 
-<ul>
+<ul align=center>
   <li>Visual Studio Code.</li>
   <li>GiHub</li>
   <li>JavaScript</li>
@@ -50,8 +50,8 @@ esta informacion es 100% espontánea y ocurrente jjajaja
 
 ![okflujo](https://github.com/JaviSeC/reservasjs/assets/132651136/2c3724c0-f9cd-46f4-90f1-f97278f12da1)
 
-<h3>Autores:</h3>
-<ol>
+<h3 align=center>Autores:</h3>
+<ol align= center>
   <li><strong>Anthony Brayan.</strong></li>
   <li><strong>Rebeca Poma.</strong></li>
   <li><strong>Javier Serrano.</strong></li>
