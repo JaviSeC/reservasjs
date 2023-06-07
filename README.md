@@ -38,7 +38,7 @@ esta informacion es 100% espontánea y ocurrente jjajaja
 
  
 
-<h3>Instalación</h3>
+## Instalación
 <ol>
   <li>Abre tu navegador web y ve a la GitHub en https://github.com.</li>
   <li>Haz clic en el botón "Sign up" si aún no tienes una cuenta de GitHub.Si ya tienes cuenta  clic en "Sign in".</li>
@@ -58,15 +58,14 @@ esta informacion es 100% espontánea y ocurrente jjajaja
  <li>Al ejecutar el comando, Visual Studio Code se abrirá y mostrará el contenido del directorio en su interfaz. Ahora puedes editar, navegar y trabajar con los archivos y carpetas en Visual Studio Code.</li>
 </ol>
 
-<h3>Arquitectura de Archivo</h3>
+## Diagrama de Flujo: Proyecto Reserva
 
-<h4>Proyecto Reserva</h4>
+![FLUJO](https://github.com/JaviSeC/reservasjs/assets/132651136/2987e119-1777-4d70-8c75-fd28588a60ad)
 
 
-
-<h3>Autores:</h3>
-<ol>
-  <li><strong>Anthony Brayan.</strong></li>
+## Autores
+<ol>  
+  <li><strong>Anthony Brayan.</strong></li>  
   <li><strong>Rebeca Poma.</strong></li>
   <li><strong>Javier Serrano.</strong></li>
 </ol>
