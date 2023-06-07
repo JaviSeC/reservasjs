@@ -23,3 +23,9 @@
 
 ![okflujo](https://github.com/JaviSeC/reservasjs/assets/132651136/2c3724c0-f9cd-46f4-90f1-f97278f12da1)
 
+<h3>Autores</h3>
+<ol>
+  <li><stronge>Anthony Brayan.</stronge></li>
+  <li><stronge>Rebeca Poma.</stronge></li>
+  <li><stronge>Javier Serrano.</stronge></li>
+</ol>
