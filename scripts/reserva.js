@@ -100,6 +100,11 @@ function addData() {
             cell7.innerHTML = totalPricePlays + " €";
 
             var cell8 = newRow.insertCell(7);
+            // cell8.style.SASASASA
+            // cell8.style.SASASASA
+            // cell8.style.SASASASA
+
+            // cell8.class = SASASASA
 
             let colum = 6;
             let valores = 0;
