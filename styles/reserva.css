@@ -221,6 +221,16 @@ th {
    text-align: center;
 }
 
+.edit-button {
+   background-color: green;
+   color: white;
+}
+
+.delete-button {
+   background-color: red;
+   color: white;
+}
+
 /* Porky y mensaje de te esperamos */
 .container-porky-texto {
    margin: 20px;
