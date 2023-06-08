@@ -67,7 +67,13 @@ esta informacion es 100% espontánea y ocurrente jjajaja
 <ol>  
   <li><strong>Rebeca Poma🔨👨‍💻💻.</strong></li>
 
+ <img alt="" src="img/rebe.jpg" width="100" height="100"/>
+
   <li><strong>Anthony Brayan🔨💻👨‍💻.</strong></li>
+
+   <img alt="" src="img/antony.jpg" width="100" height="100"/>
+
   <li><strong>Javier Serrano👨‍💻🔨💻.</strong></li>
+  <img alt="" src="img/javi.jpg" width="100" height="100"/>
 </ol>
 
