@@ -1,7 +1,8 @@
 <h1 align= center> :ticket: FANTASTIC WORLD :ticket: </h1> 
 
-
- ![FANTASTICWORLD](https://github.com/JaviSeC/reservasjs/assets/132766257/cf0caddf-027d-4a09-8d06-5f71d8ddf64a) 
+<p align="center" >
+  <img src="https://github.com/JaviSeC/reservasjs/assets/132766257/ff457cf1-7bcd-4b7f-a15a-6ab37c940a29" width=60% height=15% alt="GIFFANTASTICWORLD">
+</p>
 
 <h2 align=center> <em> :ticket: :ticket: :ticket: :ticket: :ticket: Reservas :ticket: :ticket: :ticket: :ticket: :ticket: </em> </h2>
 
