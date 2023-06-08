@@ -65,9 +65,9 @@ esta informacion es 100% espontánea y ocurrente jjajaja
 
 ## Autores
 <ol>  
-  <li><strong>Anthony Brayan🔨👨‍💻💻.</strong></li>
+  <li><strong>Rebeca Poma🔨👨‍💻💻.</strong></li>
 
-  <li><strong>Rebeca Poma🔨💻👨‍💻.</strong></li>
+  <li><strong>Anthony Brayan🔨💻👨‍💻.</strong></li>
   <li><strong>Javier Serrano👨‍💻🔨💻.</strong></li>
 </ol>
 
