@@ -1,7 +1,7 @@
 
 function adultAndChildPrice() {
 
-    
+
     let plays = document.getElementById('play-tb');
     let indiceSeleccionado = plays.selectedIndex;
     let palabraSeleccionada = plays.options[indiceSeleccionado].text;
@@ -48,6 +48,8 @@ function adultAndChildPrice() {
     }
 
 }
+
+// let overallTotalPrice = 0;
 
 function addData() {
 
@@ -102,20 +104,21 @@ function addData() {
             let cell8 = newRow.insertCell(7);
             cell8.innerHTML = "<button class='edit-button' onclick='editData(this)'>Editar</button> <br> <button class='delete-button' onclick='deleteData(this)'>Eliminar</button>";
 
+            calcular();
 
-            let valores = 0;
+            // let valores = 0;
 
-            for (let i = 1; i < table.rows.length; i++) {
-                let fila = table.rows[i];
+            // for (let i = 1; i < table.rows.length; i++) {
+            //     let fila = table.rows[i];
 
-                let celda = fila.cells[colum];
+            //     let celda = fila.cells[6];
 
-                let valor = celda.textContent;
-                valores += parseFloat(valor);
+            //     let valor = celda.textContent;
+            //     valores += parseFloat(valor);
 
-            }
+            // }
 
-            overallTotalPrice = document.getElementById('total-price').textContent = valores + " €";
+            // overallTotalPrice = document.getElementById('total-price').textContent = valores + " €";
 
             document.getElementById("form").reset();
             document.getElementById("form2").reset();
@@ -123,27 +126,49 @@ function addData() {
             document.getElementById('precio-niño').innerHTML = '0';
             document.getElementById('total-price').innerHTML = valores;
         }
-        
+
     }
 }
-    function editData(button) {
-        let row = button.parentNode.parentNode;
-        let plays = row.cells[0].innerHTML;
-        let date = row.cells[1].innerHTML;
-        let oldPeopleAge = row.cells[2].innerHTML;
-        let children = row.cells[4].innerHTML;
-      
-        document.getElementById("play-tb").value = plays;
-        document.getElementById("start-date").value = date;
-        document.getElementById("old-people-age").value = oldPeopleAge;
-        document.getElementById("children").value = children;
-      
-        row.remove();
-      }
-      
-      function deleteData(button) {
-        let row = button.parentNode.parentNode;
-        row.remove();
-      }
-                 
+
+function calcular() {
+
+    let table = document.getElementById('table-list-play');
+    let overallTotalPrice = 0;
+    let valores = 0;
+
+    for (let i = 1; i < table.rows.length; i++) {
+        let fila = table.rows[i];
+
+        let celda = fila.cells[6];
+
+        let valor = celda.textContent;
+        valores += parseFloat(valor);
+
+    }
+
+    overallTotalPrice = document.getElementById('total-price').textContent = valores + " €";
+
+}
+
+function editData(button) {
+    let row = button.parentNode.parentNode;
+    let plays = row.cells[0].innerHTML;
+    let date = row.cells[1].innerHTML;
+    let oldPeopleAge = row.cells[2].innerHTML;
+    let children = row.cells[4].innerHTML;
+
+    document.getElementById("play-tb").value = plays;
+    document.getElementById("start-date").value = date;
+    document.getElementById("old-people-age").value = oldPeopleAge;
+    document.getElementById("children").value = children;
+
+    row.remove();
+}
+
+function deleteData(button) {
+    let row = button.parentNode.parentNode;
+    row.remove();
+    calcular();
+}
+
 
