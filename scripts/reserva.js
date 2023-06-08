@@ -75,42 +75,43 @@ function addData() {
             alert("Debe elegir como mínimo un mayor de edad o un niño para reservar");
         } else {
 
-            var table = document.getElementById('table-list-play');
+            let table = document.getElementById('table-list-play');
             var newRow = table.insertRow(table.rows.length);
 
-            var cell1 = newRow.insertCell(0);
+            let cell1 = newRow.insertCell(0);
             cell1.innerHTML = plays;
 
-            var cell2 = newRow.insertCell(1);
+            let cell2 = newRow.insertCell(1);
             cell2.innerHTML = date;
 
-            var cell3 = newRow.insertCell(2);
+            let cell3 = newRow.insertCell(2);
             cell3.innerHTML = oldPeopleAge;
 
-            var cell4 = newRow.insertCell(3);
+            let cell4 = newRow.insertCell(3);
             cell4.innerHTML = totalPriceForOlderPerson + " €";
 
-            var cell5 = newRow.insertCell(4);
+            let cell5 = newRow.insertCell(4);
             cell5.innerHTML = children;
 
-            var cell6 = newRow.insertCell(5);
+            let cell6 = newRow.insertCell(5);
             cell6.innerHTML = totalPriceForChildren;
 
-            var cell7 = newRow.insertCell(6);
+            let cell7 = newRow.insertCell(6);
             cell7.innerHTML = totalPricePlays + " €";
 
-            var cell8 = newRow.insertCell(7);
-       
+            let cell8 = newRow.insertCell(7);
+            cell8.innerHTML = "<button onclick='editData(this)'>Editar</button> <br> <button onclick='deleteData(this)'>Eliminar</button>";
+
 
             let colum = 6;
             let valores = 0;
 
-            for (var i = 1; i < table.rows.length; i++) {
-                var fila = table.rows[i];
+            for (let i = 1; i < table.rows.length; i++) {
+                let fila = table.rows[i];
 
-                var celda = fila.cells[colum];
+                let celda = fila.cells[colum];
 
-                var valor = celda.textContent;
+                let valor = celda.textContent;
                 valores += parseFloat(valor);
             }
 
@@ -123,5 +124,25 @@ function addData() {
             document.getElementById('total-price').innerHTML = valores;
         }
     }
-
 }
+    function editData(button) {
+        let row = button.parentNode.parentNode;
+        let plays = row.cells[0].innerHTML;
+        let date = row.cells[1].innerHTML;
+        let oldPeopleAge = row.cells[2].innerHTML;
+        let children = row.cells[4].innerHTML;
+      
+        document.getElementById("play-tb").value = plays;
+        document.getElementById("start-date").value = date;
+        document.getElementById("old-people-age").value = oldPeopleAge;
+        document.getElementById("children").value = children;
+      
+        row.remove();
+      }
+      
+      function deleteData(button) {
+        let row = button.parentNode.parentNode;
+        row.remove();
+      }
+                 
+
