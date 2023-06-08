@@ -1,11 +1,7 @@
 <h1 align= center> :ticket: FANTASTIC WORLD :ticket: </h1> 
 
-![Logo](https://github.com/JaviSeC/reservasjs/assets/132766257/ff457cf1-7bcd-4b7f-a15a-6ab37c940a29)
-
-https://user-images.githubusercontent.com/132766257/244353453-ff457cf1-7bcd-4b7f-a15a-6ab37c940a29.gif
-
-<p align="center">
-  <img src="https://github.com/JaviSeC/reservasjs/assets/132766257/ff457cf1-7bcd-4b7f-a15a-6ab37c940a29" alt="GIFFANTASTICWORLD">
+<p align="center" >
+  <img src="https://github.com/JaviSeC/reservasjs/assets/132766257/ff457cf1-7bcd-4b7f-a15a-6ab37c940a29" width=60% height=15% alt="GIFFANTASTICWORLD">
 </p>
 
 <h2 align=center> <em> :ticket: :ticket: :ticket: :ticket: :ticket: Reservas :ticket: :ticket: :ticket: :ticket: :ticket: </em> </h2>
@@ -16,7 +12,7 @@ Hemos creado esta página en la que el cliente hará su reservación en nuestro 
 
 <h1 align= center> :dart:  :horse_racing: :space_invader: :crown: :clubs: :video_game: :game_die: :guitar: :eyeglasses: :lollipop: :beers: :hamburger: :icecream:  :chocolate_bar:  :doughnut:  :cake:  :candy: :ferris_wheel: :rocket: :bike: :stars: :carousel_horse: :fountain: :rowboat:  :rotating_light: :performing_arts: :circus_tent: :crossed_flags: :triangular_flag_on_post: :checkered_flag: :round_pushpin: </h1>
 
-esta informacion es 100% espontánea y ocurrente jjajaja
+
 
 <p align="center"> 
  <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
@@ -38,8 +34,11 @@ esta informacion es 100% espontánea y ocurrente jjajaja
   <li>Canvas</li>
 </ul>
 
-
-![html-5](https://github.com/JaviSeC/reservasjs/assets/132766257/38de97c7-773f-4c51-9693-3c7091013bb7)  ![css-3](https://github.com/JaviSeC/reservasjs/assets/132766257/aeed1ec9-3d72-480f-8fb0-b16adb9aeb15)  ![js](https://github.com/JaviSeC/reservasjs/assets/132766257/0817c8cd-3509-4756-87ff-da4415d1dcaf)
+<p align="center"> 
+  <img src="https://github.com/JaviSeC/reservasjs/assets/132766257/38de97c7-773f-4c51-9693-3c7091013bb7">
+  <img src="https://github.com/JaviSeC/reservasjs/assets/132766257/aeed1ec9-3d72-480f-8fb0-b16adb9aeb15">
+  <img src="https://github.com/JaviSeC/reservasjs/assets/132766257/0817c8cd-3509-4756-87ff-da4415d1dcaf">
+</p>
 
  
 
@@ -65,8 +64,9 @@ esta informacion es 100% espontánea y ocurrente jjajaja
 
 ## Diagrama de Flujo: Proyecto Reserva
 
-![FLUJO](https://github.com/JaviSeC/reservasjs/assets/132651136/2987e119-1777-4d70-8c75-fd28588a60ad)
-
+<p align=center>
+  <img src=https://github.com/JaviSeC/reservasjs/assets/132651136/2987e119-1777-4d70-8c75-fd28588a60ad>
+  </p>
 
 ## Autores
 <ol>  
