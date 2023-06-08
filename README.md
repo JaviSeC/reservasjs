@@ -73,13 +73,15 @@ Hemos creado esta página en la que el cliente hará su reservación en nuestro 
 
 <ol>  
 
-<ul><strong>Rebeca Poma🔨👨‍💻💻.</strong></ul>
+<li><strong>Rebeca Poma🔨👨‍💻💻.</strong></li>
 <img alt="" src="img/rebe.jpg" width="120" height="100"/>
+  
 
-<ul><strong>Anthony Brayan🔨💻👨‍💻.</strong></ul>
+<li><strong>Anthony Brayan🔨💻👨‍💻.</strong></li>
 <img alt="" src="img/antony.jpg" width="120" height="100"/>
 
-<ul><strong>Javier Serrano👨‍💻🔨💻.</strong></ul>
+  
+<li><strong>Javier Serrano👨‍💻🔨💻.</strong></li>
 <img alt="" src="img/javi.jpg" width="130" height="100"/>
  
 </ol>
