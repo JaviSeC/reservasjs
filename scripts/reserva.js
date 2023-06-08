@@ -100,7 +100,7 @@ function addData() {
             cell7.innerHTML = totalPricePlays + " €";
 
             let cell8 = newRow.insertCell(7);
-            cell8.innerHTML = "<button onclick='editData(this)'>Editar</button> <br> <button onclick='deleteData(this)'>Eliminar</button>";
+            cell8.innerHTML = "<button class='edit-button' onclick='editData(this)'>Editar</button> <br> <button class='delete-button' onclick='deleteData(this)'>Eliminar</button>";
 
 
             let colum = 6;
