@@ -1,10 +1,10 @@
+
 function adultAndChildPrice() {
 
-    var plays = document.getElementById('play-tb');
-    var indiceSeleccionado = plays.selectedIndex;
-    var palabraSeleccionada = plays.options[indiceSeleccionado].text;
-
-
+    
+    let plays = document.getElementById('play-tb');
+    let indiceSeleccionado = plays.selectedIndex;
+    let palabraSeleccionada = plays.options[indiceSeleccionado].text;
 
     if (palabraSeleccionada == "Selecciona un juego") {
 
@@ -56,8 +56,8 @@ function addData() {
     let oldPeopleAge = document.getElementById("old-people-age").value;
     let priceOldPeopleAge = document.getElementById("label-old-people-age").innerHTML;
     let children = document.getElementById("children").value;
-    let priceChildren= document.getElementById("label-children").innerHTML;
-    
+    let priceChildren = document.getElementById("label-children").innerHTML;
+
     let totalPriceForOlderPerson = oldPeopleAge * priceOldPeopleAge;
     let totalPriceForChildren = children * priceChildren;
     let totalPricePlays = totalPriceForOlderPerson + totalPriceForChildren;
@@ -75,42 +75,42 @@ function addData() {
             alert("Debe elegir como mínimo un mayor de edad o un niño para reservar");
         } else {
 
-            var table = document.getElementById('table-list-play');
-            var newRow = table.insertRow(table.rows.length);
+            let table = document.getElementById('table-list-play');
+            let newRow = table.insertRow();
 
-            var cell1 = newRow.insertCell(0);
+            let cell1 = newRow.insertCell();
             cell1.innerHTML = plays;
 
-            var cell2 = newRow.insertCell(1);
+            let cell2 = newRow.insertCell();
             cell2.innerHTML = date;
 
-            var cell3 = newRow.insertCell(2);
+            let cell3 = newRow.insertCell();
             cell3.innerHTML = oldPeopleAge;
 
-            var cell4 = newRow.insertCell(3);
+            let cell4 = newRow.insertCell();
             cell4.innerHTML = totalPriceForOlderPerson + " €";
 
-            var cell5 = newRow.insertCell(4);
+            let cell5 = newRow.insertCell();
             cell5.innerHTML = children;
 
-            var cell6 = newRow.insertCell(5);
+            let cell6 = newRow.insertCell();
             cell6.innerHTML = totalPriceForChildren;
 
-            var cell7 = newRow.insertCell(6);
+            let cell7 = newRow.insertCell();
             cell7.innerHTML = totalPricePlays + " €";
 
-            var cell8 = newRow.insertCell(7);
+            let cell8 = newRow.insertCell();
 
-            let colum = 6;
             let valores = 0;
 
-            for (var i = 1; i < table.rows.length; i++) {
-                var fila = table.rows[i];
+            for (let i = 1; i < table.rows.length; i++) {
 
-                var celda = fila.cells[colum];
+                let fila = table.rows[i];
+                let celda = fila.cells[6];
 
-                var valor = celda.textContent;
+                let valor = celda.textContent;
                 valores += parseFloat(valor);
+
             }
 
             overallTotalPrice = document.getElementById('total-price').textContent = valores + " €";
@@ -121,6 +121,7 @@ function addData() {
             document.getElementById('precio-niño').innerHTML = '0';
             document.getElementById('total-price').innerHTML = valores;
         }
+        
     }
 
 }

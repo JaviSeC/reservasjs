@@ -35,15 +35,15 @@
             <h2>Reserva</h2>
         </div>
 
-        <div class="form">
+        <div class="form" class="cualquiercosa">
 
-            <div class="form-1">
+            <!-- <div class="form-1" class="cualquiercosa"> -->
 
                 <form action="#" id="form" autocomplete="off">
 
-                    <div class="conteiner-data">
+                    <div class="conteiner-data" >
 
-                        <div class="data">
+                        <div class="data" >
 
                             <div>
                                 <label for="play-tb"><strong>Juego</strong>:</label>
@@ -51,7 +51,8 @@
 
                             <div style="margin-bottom: 3%;">
 
-                                <select id="play-tb" name="play-tb" onchange="adultAndChildPrice()">
+                                <select id="play-tb" onchange="adultAndChildPrice()">
+
                                     <option value="">Selecciona un juego</option>
                                     <option>Juego 1</option>
                                     <option>Juego 2</option>
@@ -60,9 +61,11 @@
                                     <option>Juego 5</option>
                                     <option>Juego 6</option>
                                     <option>Juego 7</option>
+
                                 </select>
 
                             </div>
+
                         </div>
 
                     </div>
@@ -86,15 +89,15 @@
 
                 </form>
 
-            </div>
+            <!-- </div> -->
 
-            <div class="form-2">
+            <!-- <div class="form-2"> -->
 
-                <form action="#" id="form2" autocomplete="off">
+                <form action="#" id="form2"  autocomplete="off">
 
-                    <div class="conteiner-data">
-
-                        <div class="data-dos">
+                    <div class="conteiner-data" >
+                        <div class="adult">
+                            <div class="data-dos" >
 
                             <div>
                                 <label for="label-old-people-age"><strong>Personas mayores de edad:</strong></label>
@@ -113,7 +116,10 @@
                                 <label for="">€. Por persona</label>
                             </div>
 
+                            </div>
                         </div>
+
+                        
 
                     </div>
 
@@ -144,19 +150,19 @@
 
                 </form>
 
-            </div>
+            <!-- </div> -->
+
         </div>
 
         <div class="titulo-btn-reservar">
 
             <div id="conteiner-btn-agregar">
 
-                <input id="btn" type="button" name="enviar" value="Agregar" class="btn-agregar" onclick="addData()">
+                <input type="button" value="Agregar" class="btn-agregar" onclick="addData()">
 
             </div>
 
         </div>
-
 
         <div>
 

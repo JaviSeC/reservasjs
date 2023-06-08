@@ -120,15 +120,31 @@ header {
    justify-content: space-around;
 }
 
-.form-1 {
-   /* background-color: #AED6F1; */
-   width: 100%;
+@media (max-width:600px) {
+   .form{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 150px;
+   }
+   #form2 {
+      margin-left: 200px;
+      margin-top: 20px;
+   }
+
+   .adult{
+      margin-left: 164px;
+   }
+
+   .data-dos{
+      margin-right: 147px;
+
+   }
+   #table-list-play {
+      font-size: 0.7rem;
+   }
 }
 
-.form-2 {
-   /* background-color: #055786; */
-   width: 100%;
-}
 
 .input-num {
    text-align: center;
@@ -140,6 +156,7 @@ header {
    margin-top: 2%;
 }
 
+
 .data-dos {
    display: flex;
    justify-content: center;
@@ -148,7 +165,7 @@ header {
 
 #data-niños {
    margin-top: 3%;
-   margin-left: 30.3%;
+   margin-left: 163px;
 }
 
 .conteiner-data {
