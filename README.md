@@ -2,6 +2,10 @@
 
 ![Logo](https://github.com/JaviSeC/reservasjs/assets/132766257/ff457cf1-7bcd-4b7f-a15a-6ab37c940a29)
 
+<p align="center">
+  <img src="http://127.0.0.1:5501/img/Logo.gif" alt="GIF FANTASTIC WORLD">
+</p>
+
 <h2 align=center> <em> :ticket: :ticket: :ticket: :ticket: :ticket: Reservas :ticket: :ticket: :ticket: :ticket: :ticket: </em> </h2>
 
 <h3>Descripción:</h3
