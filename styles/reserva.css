@@ -224,12 +224,12 @@ th {
 .edit-button {
    background-color: green;
    color: white;
- }
- 
- .delete-button {
+}
+
+.delete-button {
    background-color: red;
    color: white;
- }
+}
 
 /* Porky y mensaje de te esperamos */
 .container-porky-texto {
