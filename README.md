@@ -6,7 +6,7 @@
 
 <h2 align=center> <em> :ticket: :ticket: :ticket: :ticket: :ticket: Reservas :ticket: :ticket: :ticket: :ticket: :ticket: </em> </h2>
 
-<h3>Description:</h3
+<h3>Descripción:</h3
   
 Hemos creado esta página en la que el cliente hará su reservación en nuestro parque de diversiones <strong> Fantastic World. </strong> Para cualquiera de nuestros juegos podrá ingresar sus datos, cuantas personas adultas, y cuantas menores de edad, para qué día y por supuesto, la fecha, hemos intentado hacer nuestra plataforma de la mejor manera para que sea entendible para ti! :blush: :raised_hands:
 
