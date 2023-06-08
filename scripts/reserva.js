@@ -1,6 +1,4 @@
-
 function adultAndChildPrice() {
-
 
     let plays = document.getElementById('play-tb');
     let indiceSeleccionado = plays.selectedIndex;
@@ -11,36 +9,37 @@ function adultAndChildPrice() {
         document.getElementById('label-old-people-age').textContent = 0;
         document.getElementById('label-children').textContent = 0;
 
-    } else if (palabraSeleccionada == "Juego 1") {
+    } else if (palabraSeleccionada == "The Kingdom of Fantasy") {
+
         document.getElementById('label-old-people-age').textContent = 20;
         document.getElementById('label-children').textContent = 10;
 
-    } else if (palabraSeleccionada == "Juego 2") {
+    } else if (palabraSeleccionada == "Aqua World") {
 
         document.getElementById('label-old-people-age').textContent = 15;
         document.getElementById('label-children').textContent = 5;
 
-    } else if (palabraSeleccionada == "Juego 3") {
+    } else if (palabraSeleccionada == "La ciudad de los niños") {
 
         document.getElementById('label-old-people-age').textContent = 30;
         document.getElementById('label-children').textContent = 25;
 
-    } else if (palabraSeleccionada == "Juego 4") {
+    } else if (palabraSeleccionada == "Rolling Train") {
 
         document.getElementById('label-old-people-age').textContent = 40;
         document.getElementById('label-children').textContent = 20;
 
-    } else if (palabraSeleccionada == "Juego 5") {
+    } else if (palabraSeleccionada == "Shows") {
 
         document.getElementById('label-old-people-age').textContent = 15;
         document.getElementById('label-children').textContent = 9;
 
-    } else if (palabraSeleccionada == "Juego 6") {
+    } else if (palabraSeleccionada == "El mirador del cielo") {
 
         document.getElementById('label-old-people-age').textContent = 50;
         document.getElementById('label-children').textContent = 30;
 
-    } else if (palabraSeleccionada == "Juego 7") {
+    } else if (palabraSeleccionada == "Enchanted") {
 
         document.getElementById('label-old-people-age').textContent = 19;
         document.getElementById('label-children').textContent = 13;
@@ -48,8 +47,6 @@ function adultAndChildPrice() {
     }
 
 }
-
-// let overallTotalPrice = 0;
 
 function addData() {
 
@@ -106,20 +103,6 @@ function addData() {
 
             calcular();
 
-            // let valores = 0;
-
-            // for (let i = 1; i < table.rows.length; i++) {
-            //     let fila = table.rows[i];
-
-            //     let celda = fila.cells[6];
-
-            //     let valor = celda.textContent;
-            //     valores += parseFloat(valor);
-
-            // }
-
-            // overallTotalPrice = document.getElementById('total-price').textContent = valores + " €";
-
             document.getElementById("form").reset();
             document.getElementById("form2").reset();
             document.getElementById('old-people-age').innerHTML = '0';
@@ -128,12 +111,12 @@ function addData() {
         }
 
     }
+    
 }
 
 function calcular() {
 
     let table = document.getElementById('table-list-play');
-    let overallTotalPrice = 0;
     let valores = 0;
 
     for (let i = 1; i < table.rows.length; i++) {
@@ -146,7 +129,7 @@ function calcular() {
 
     }
 
-    overallTotalPrice = document.getElementById('total-price').textContent = valores + " €";
+    let overallTotalPrice = document.getElementById('total-price').textContent = valores + " €";
 
 }
 
