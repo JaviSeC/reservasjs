@@ -12,8 +12,6 @@ Hemos creado esta página en la que el cliente hará su reservación en nuestro 
 
 <h1 align= center> :dart:  :horse_racing: :space_invader: :crown: :clubs: :video_game: :game_die: :guitar: :eyeglasses: :lollipop: :beers: :hamburger: :icecream:  :chocolate_bar:  :doughnut:  :cake:  :candy: :ferris_wheel: :rocket: :bike: :stars: :carousel_horse: :fountain: :rowboat:  :rotating_light: :performing_arts: :circus_tent: :crossed_flags: :triangular_flag_on_post: :checkered_flag: :round_pushpin: </h1>
 
-esta informacion es 100% espontánea y ocurrente jjajaja
-
 <p align="center"> 
  <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
    </p>
