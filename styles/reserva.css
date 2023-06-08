@@ -238,6 +238,16 @@ th {
    text-align: center;
 }
 
+.edit-button {
+   background-color: rgb(40, 224, 40);
+   color: white;
+}
+
+.delete-button {
+   background-color: rgb(249, 42, 42);
+   color: white;
+}
+
 /* Porky y mensaje de te esperamos */
 .container-porky-texto {
    margin: 20px;
