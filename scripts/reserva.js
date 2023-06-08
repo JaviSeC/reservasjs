@@ -1,7 +1,5 @@
-
 function adultAndChildPrice() {
 
-    
     let plays = document.getElementById('play-tb');
     let indiceSeleccionado = plays.selectedIndex;
     let palabraSeleccionada = plays.options[indiceSeleccionado].text;
@@ -11,36 +9,37 @@ function adultAndChildPrice() {
         document.getElementById('label-old-people-age').textContent = 0;
         document.getElementById('label-children').textContent = 0;
 
-    } else if (palabraSeleccionada == "Juego 1") {
+    } else if (palabraSeleccionada == "The Kingdom of Fantasy") {
+
         document.getElementById('label-old-people-age').textContent = 20;
         document.getElementById('label-children').textContent = 10;
 
-    } else if (palabraSeleccionada == "Juego 2") {
+    } else if (palabraSeleccionada == "Aqua World") {
 
         document.getElementById('label-old-people-age').textContent = 15;
         document.getElementById('label-children').textContent = 5;
 
-    } else if (palabraSeleccionada == "Juego 3") {
+    } else if (palabraSeleccionada == "La ciudad de los niños") {
 
         document.getElementById('label-old-people-age').textContent = 30;
         document.getElementById('label-children').textContent = 25;
 
-    } else if (palabraSeleccionada == "Juego 4") {
+    } else if (palabraSeleccionada == "Rolling Train") {
 
         document.getElementById('label-old-people-age').textContent = 40;
         document.getElementById('label-children').textContent = 20;
 
-    } else if (palabraSeleccionada == "Juego 5") {
+    } else if (palabraSeleccionada == "Shows") {
 
         document.getElementById('label-old-people-age').textContent = 15;
         document.getElementById('label-children').textContent = 9;
 
-    } else if (palabraSeleccionada == "Juego 6") {
+    } else if (palabraSeleccionada == "El mirador del cielo") {
 
         document.getElementById('label-old-people-age').textContent = 50;
         document.getElementById('label-children').textContent = 30;
 
-    } else if (palabraSeleccionada == "Juego 7") {
+    } else if (palabraSeleccionada == "Enchanted") {
 
         document.getElementById('label-old-people-age').textContent = 19;
         document.getElementById('label-children').textContent = 13;
@@ -102,20 +101,7 @@ function addData() {
             let cell8 = newRow.insertCell(7);
             cell8.innerHTML = "<button class='edit-button' onclick='editData(this)'>Editar</button> <br> <button class='delete-button' onclick='deleteData(this)'>Eliminar</button>";
 
-
-            let valores = 0;
-
-            for (let i = 1; i < table.rows.length; i++) {
-                let fila = table.rows[i];
-
-                let celda = fila.cells[colum];
-
-                let valor = celda.textContent;
-                valores += parseFloat(valor);
-
-            }
-
-            overallTotalPrice = document.getElementById('total-price').textContent = valores + " €";
+            calcular();
 
             document.getElementById("form").reset();
             document.getElementById("form2").reset();
@@ -123,27 +109,49 @@ function addData() {
             document.getElementById('precio-niño').innerHTML = '0';
             document.getElementById('total-price').innerHTML = valores;
         }
-        
+
     }
+    
 }
-    function editData(button) {
-        let row = button.parentNode.parentNode;
-        let plays = row.cells[0].innerHTML;
-        let date = row.cells[1].innerHTML;
-        let oldPeopleAge = row.cells[2].innerHTML;
-        let children = row.cells[4].innerHTML;
-      
-        document.getElementById("play-tb").value = plays;
-        document.getElementById("start-date").value = date;
-        document.getElementById("old-people-age").value = oldPeopleAge;
-        document.getElementById("children").value = children;
-      
-        row.remove();
-      }
-      
-      function deleteData(button) {
-        let row = button.parentNode.parentNode;
-        row.remove();
-      }
-                 
+
+function calcular() {
+
+    let table = document.getElementById('table-list-play');
+    let valores = 0;
+
+    for (let i = 1; i < table.rows.length; i++) {
+        let fila = table.rows[i];
+
+        let celda = fila.cells[6];
+
+        let valor = celda.textContent;
+        valores += parseFloat(valor);
+
+    }
+
+    let overallTotalPrice = document.getElementById('total-price').textContent = valores + " €";
+
+}
+
+function editData(button) {
+    let row = button.parentNode.parentNode;
+    let plays = row.cells[0].innerHTML;
+    let date = row.cells[1].innerHTML;
+    let oldPeopleAge = row.cells[2].innerHTML;
+    let children = row.cells[4].innerHTML;
+
+    document.getElementById("play-tb").value = plays;
+    document.getElementById("start-date").value = date;
+    document.getElementById("old-people-age").value = oldPeopleAge;
+    document.getElementById("children").value = children;
+
+    row.remove();
+}
+
+function deleteData(button) {
+    let row = button.parentNode.parentNode;
+    row.remove();
+    calcular();
+}
+
 
