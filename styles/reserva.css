@@ -43,11 +43,7 @@ header {
 #check {
    display: none;
 }
-<<<<<<< HEAD
-
-=======
 /* Responsive */
->>>>>>> anthony
 @media(max-width:768px) {
    .mostrar-menu,
    .esconder-menu {
@@ -86,20 +82,12 @@ header {
    margin-bottom: 90px;
    background: #dbdbdb;
 }
-<<<<<<< HEAD
-
-=======
 /* Hacer tener 2 formularios */
->>>>>>> anthony
 .form {
    margin: 10px;
    display: flex;
    justify-content: space-around;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> anthony
 @media (max-width:600px) {
    .form{
       display:flex;
@@ -111,31 +99,16 @@ header {
       margin-left: 200px;
       margin-top: 20px;
    }
-<<<<<<< HEAD
-
-   .adult{
-      margin-left: 164px;
-   }
-
-   .data-dos{
-      margin-right: 147px;
-
-=======
    .adult{
       margin-left: 164px;
    }
    .data-dos{
       margin-right: 147px;
->>>>>>> anthony
    }
    #table-list-play {
       font-size: 0.7rem;
    }
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> anthony
 .input-num {
    text-align: center;
 }
@@ -144,11 +117,6 @@ header {
    margin-left: 50%;
    margin-top: 2%;
 }
-<<<<<<< HEAD
-
-
-=======
->>>>>>> anthony
 .data-dos {
    display: flex;
    justify-content: center;
@@ -178,11 +146,7 @@ header {
    border-radius: 3px;
    cursor: pointer;
 }
-<<<<<<< HEAD
-
-=======
 /* Tabla */
->>>>>>> anthony
 .container-table-list-play {
    width: 100%;
    padding: 10px;
@@ -223,11 +187,7 @@ th {
    background-color: rgb(249, 42, 42);
    color: white;
 }
-<<<<<<< HEAD
-
-=======
 /* Porky y mensaje de te esperamos */
->>>>>>> anthony
 .container-porky-texto {
    margin: 20px;
 }
