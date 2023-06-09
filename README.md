@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # reservasjs
 =======
+=======
+>>>>>>> anthony
 <h1 align= center> :tique: FANTASTIC WORLD :tique: </h1>
 <p align="center" >
   <img src="https://github.com/JaviSeC/reservasjs/assets/132766257/ff457cf1-7bcd-4b7f-a15a-6ab37c940a29" width=60% height=15% alt="GIFFANTASTICWORLD">
@@ -63,5 +66,9 @@ Hemos creado esta página en la que el cliente hará su reservación en nuestro 
 <img alt="" src="img/antony.jpg" width="120" height="100"/>
 <ul><strong>Javier Serrano:tecnólogo::martillo::ordenador:.</strong></ul>
 <img alt="" src="img/javi.jpg" width="130" height="100"/>
+<<<<<<< HEAD
+</ol>
+>>>>>>> anthony
+=======
 </ol>
 >>>>>>> anthony
