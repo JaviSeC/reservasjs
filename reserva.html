@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Contacto</title>
+    <title>Reservas</title>
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/reserva.css" type="text/css">
 
@@ -36,14 +36,15 @@
             <h2>Reserva</h2>
         </div>
 
-        <div class="form">
+        <div class="form" class="cualquiercosa">
 
-            <div class="form-1">
+            <form action="#" id="form" autocomplete="off">
 
-                <form action="#" id="form" autocomplete="off">
+                <div class="conteiner-data">
 
-                    <div class="conteiner-data">
+                    <div class="data">
 
+<<<<<<< HEAD
                         <div class="data">
 
                             <div>
@@ -64,46 +65,75 @@
                                 </select>
 
                             </div>
+=======
+                        <div>
+                            <label for="play-tb"><strong>Juego</strong>:</label>
+>>>>>>> anthony
+                        </div>
+
+                        <div style="margin-bottom: 3%;">
+
+                            <select id="play-tb" onchange="adultAndChildPrice()">
+
+                                <option value="">Selecciona un juego</option>
+                                <option>The Kingdom of Fantasy</option>
+                                <option>Aqua World</option>
+                                <option>La ciudad de los niños</option>
+                                <option>Rolling Train</option>
+                                <option>Shows</option>
+                                <option>El mirador del cielo</option>
+                                <option>Enchanted</option>
+
+                            </select>
+
                         </div>
 
                     </div>
 
-                    <div class="conteiner-data">
+                </div>
 
-                        <div class="data">
+                <div class="conteiner-data">
 
-                            <div>
-                                <label for="start-date"><strong>Fecha</strong>:</label>
-                            </div>
+                    <div class="data">
 
-                            <div>
-                                <input type="date" id="start-date" name="trip-start" value="" min="2023-01-01"
-                                    max="2031-12-31">
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </form>
-
-            </div>
-
-            <div class="form-2">
-
+<<<<<<< HEAD
                 <form action="#" id="form" autocomplete="off">
+=======
+                        <div>
+                            <label for="start-date"><strong>Fecha</strong>:</label>
+                        </div>
+>>>>>>> anthony
 
-                    <div class="conteiner-data">
+                        <div>
+                            <input type="date" id="start-date" name="trip-start" value="" min="2023-01-01"
+                                max="2031-12-31">
+                        </div>
 
+                    </div>
+
+                </div>
+
+            </form>
+
+            <form action="#" id="form2" autocomplete="off">
+
+                <div class="conteiner-data">
+                    <div class="adult">
                         <div class="data-dos">
 
                             <div>
                                 <label for="mayores-de-edad"><strong>Personas mayores de edad:</strong></label>
                             </div>
 
+<<<<<<< HEAD
                             <div >
                                 <input id="personas-mayores-edad" type="number" name="personas-mayores-edad"
                                     class="input-num" max="50" min="1">
+=======
+                            <div>
+                                <input id="old-people-age" type="number" name="old-people-age" class="input-num"
+                                    max="50" min="0" value="">
+>>>>>>> anthony
                             </div>
 
                             <div class="space-data-to-person">
@@ -115,13 +145,13 @@
                             </div>
 
                         </div>
-
                     </div>
 
-                    <div class="conteiner-data">
+                </div>
 
-                        <div class="data-dos" id="data-niños">
+                <div class="conteiner-data">
 
+<<<<<<< HEAD
                             <div class="label-espace">
                                 <label for="niños"><strong>Niños</strong>:</label>
                             </div>
@@ -133,30 +163,48 @@
                             <div class="space-data-to-person">
                                 <label for="">15</label>
                             </div>
+=======
+                    <div class="data-dos" id="data-niños">
 
-                            <div class="space-data-to-person">
-                                <label for="">€. Por persona</label>
-                            </div>
+                        <div class="label-espace">
+                            <label for="children"><strong>Niños:</strong></label>
+                        </div>
 
+                        <div>
+                            <input id="children" type="number" name="children" class="input-num" max="50" min="0"
+                                value="">
+                        </div>
+>>>>>>> anthony
+
+                        <div class="space-data-to-person">
+                            <label id="label-children" for="">0</label>
+                        </div>
+
+                        <div class="space-data-to-person">
+                            <label for="">€. Por persona</label>
                         </div>
 
                     </div>
 
-                </form>
+                </div>
 
-            </div>
+            </form>
+
         </div>
 
         <div class="titulo-btn-reservar">
 
             <div id="conteiner-btn-agregar">
 
+<<<<<<< HEAD
                 <input id="btn" type="submit" name="enviar" value="Agregar" class="btn-agregar">
+=======
+                <input type="button" value="Agregar" class="btn-agregar" onclick="addData()">
+>>>>>>> anthony
 
             </div>
 
         </div>
-
 
         <div>
 
@@ -279,6 +327,7 @@
     <div id="footer">
 
         <div class="container-foot">
+            
             <div class="letrasFooter">
                 <a href="#">Created by "Super-Group"</a>
             </div>
@@ -302,6 +351,7 @@
             <div class="letrasFooter">
                 <a href="#">Politica de privacidad</a>
             </div>
+
         </div>
 
     </div>
