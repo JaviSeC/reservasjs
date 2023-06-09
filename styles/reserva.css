@@ -63,7 +63,6 @@ header {
    display: none;
 }
 
-/* Responsive */
 @media(max-width:768px) {
 
    .mostrar-menu,
@@ -113,7 +112,6 @@ header {
 
 }
 
-/* Hacer tener 2 formularios */
 .form {
    margin: 10px;
    display: flex;
@@ -144,7 +142,6 @@ header {
       font-size: 0.7rem;
    }
 }
-
 
 .input-num {
    text-align: center;
@@ -196,7 +193,6 @@ header {
 
 }
 
-/* Tabla */
 .container-table-list-play {
    width: 100%;
    padding: 10px;
@@ -248,7 +244,6 @@ th {
    color: white;
 }
 
-/* Porky y mensaje de te esperamos */
 .container-porky-texto {
    margin: 20px;
 }
