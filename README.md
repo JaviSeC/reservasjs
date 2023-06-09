@@ -7,7 +7,7 @@
 
 <h2 align=center> <em> :ticket: :ticket: :ticket: :ticket: :ticket: Reservas :ticket: :ticket: :ticket: :ticket: :ticket: </em> </h2>
 
-<h3>Descripción:</h3
+## Descripción:
 Hemos creado esta página en la que el cliente hará su reservación en nuestro parque de diversiones <strong> Fantastic World. </strong> Para cualquiera de nuestros juegos podrá ingresar sus datos, cuantas personas adultas, y cuantas menores de edad, para qué día y por supuesto, la fecha, hemos intentado hacer nuestra plataforma de la mejor manera para que sea entendible para ti! :sonrojo: :manos_levantadas:
 
 <h1 align= center> :dart:  :horse_racing: :space_invader: :crown: :clubs: :video_game: :game_die: :guitar: :eyeglasses: :lollipop: :beers: :hamburger: :icecream:  :chocolate_bar:  :doughnut:  :cake:  :candy: :ferris_wheel: :rocket: :bike: :stars: :carousel_horse: :fountain: :rowboat:  :rotating_light: :performing_arts: :circus_tent: :crossed_flags: :triangular_flag_on_post: :checkered_flag: :round_pushpin: </h1>
@@ -55,6 +55,7 @@ Hemos creado esta página en la que el cliente hará su reservación en nuestro 
   <li>Una vez que se haya completado la descarga, ejecuta el archivo de instalación.</li>
  <li>Al ejecutar el comando, Visual Studio Code se abrirá y mostrará el contenido del directorio en su interfaz. Ahora puedes editar, navegar y trabajar con los archivos y carpetas en Visual Studio Code.</li>
 </ol>
+
 ## Diagrama de Flujo: Proyecto Reserva
 <p align=center>
 <img src=https://github.com/JaviSeC/reservasjs/assets/132651136/2987e119-1777-4d70-8c75-fd28588a60ad>
@@ -62,10 +63,10 @@ Hemos creado esta página en la que el cliente hará su reservación en nuestro 
 
 ## Autores:
 <ol>
-<ul><strong>Rebeca Poma:martillo::tecnólogo::ordenador:.</strong></ul>
+<ul><strong>Rebeca Poma .</strong></ul>
 <img alt="" src="img/rebe.jpg" width="120" height="100"/>
-<ul><strong>Anthony Brayan:martillo::ordenador::tecnólogo:.</strong></ul>
+<ul><strong>Anthony Brayan.</strong></ul>
 <img alt="" src="img/antony.jpg" width="120" height="100"/>
-<ul><strong>Javier Serrano:tecnólogo::martillo::ordenador:.</strong></ul>
+<ul><strong>Javier Serrano .</strong></ul>
 <img alt="" src="img/javi.jpg" width="130" height="100"/>
 </ol>
