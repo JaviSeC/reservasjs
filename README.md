@@ -16,7 +16,7 @@ Hemos creado esta página en la que el cliente hará su reservación en nuestro 
  <img src="https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green">
    </p>
    <h4 align="center">
-:construcción: Proyecto en construcción :construcción:
+
 </h4>
 <p align=center>
  <img src=https://github.com/JaviSeC/reservasjs/assets/132651136/65c7313c-429b-4f58-b43b-db86a9b5e6c2 alt=herramientas>
