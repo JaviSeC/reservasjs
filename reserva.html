@@ -3,11 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Reservas</title>
+    <title>Contacto</title>
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/reserva.css" type="text/css">
 
 </head>
+<!-- comentario de prueba -->
 
 <body>
 
@@ -35,75 +36,78 @@
             <h2>Reserva</h2>
         </div>
 
-        <div class="form" class="cualquiercosa">
+        <div class="form">
 
-            <form action="#" id="form" autocomplete="off">
+            <div class="form-1">
 
-                <div class="conteiner-data">
+                <form action="#" id="form" autocomplete="off">
 
-                    <div class="data">
+                    <div class="conteiner-data">
 
-                        <div>
-                            <label for="play-tb"><strong>Juego</strong>:</label>
+                        <div class="data">
+
+                            <div>
+                                <label for="juegos"><strong>Juego</strong>:</label>
+                            </div>
+
+                            <div style="margin-bottom: 3%;">
+
+                                <select name="select-juego">
+                                    <option value="">Selecciona un juego</option>
+                                    <option>Juego 1</option>
+                                    <option>Juego 2</option>
+                                    <option>Juego 3</option>
+                                    <option>Juego 4</option>
+                                    <option>Juego 5</option>
+                                    <option>Juego 6</option>
+                                    <option>Juego 7</option>
+                                </select>
+
+                            </div>
                         </div>
 
-                        <div style="margin-bottom: 3%;">
+                    </div>
 
-                            <select id="play-tb" onchange="adultAndChildPrice()">
+                    <div class="conteiner-data">
 
-                                <option value="">Selecciona un juego</option>
-                                <option>The Kingdom of Fantasy</option>
-                                <option>Aqua World</option>
-                                <option>La ciudad de los niños</option>
-                                <option>Rolling Train</option>
-                                <option>Shows</option>
-                                <option>El mirador del cielo</option>
-                                <option>Enchanted</option>
+                        <div class="data">
 
-                            </select>
+                            <div>
+                                <label for="start-date"><strong>Fecha</strong>:</label>
+                            </div>
+
+                            <div>
+                                <input type="date" id="start-date" name="trip-start" value="" min="2023-01-01"
+                                    max="2031-12-31">
+                            </div>
 
                         </div>
 
                     </div>
 
-                </div>
+                </form>
 
-                <div class="conteiner-data">
+            </div>
 
-                    <div class="data">
+            <div class="form-2">
 
-                        <div>
-                            <label for="start-date"><strong>Fecha</strong>:</label>
-                        </div>
+                <form action="#" id="form" autocomplete="off">
 
-                        <div>
-                            <input type="date" id="start-date" name="trip-start" value="" min="2023-01-01"
-                                max="2031-12-31">
-                        </div>
+                    <div class="conteiner-data">
 
-                    </div>
-
-                </div>
-
-            </form>
-
-            <form action="#" id="form2" autocomplete="off">
-
-                <div class="conteiner-data">
-                    <div class="adult">
                         <div class="data-dos">
 
                             <div>
-                                <label for="label-old-people-age"><strong>Personas mayores de edad:</strong></label>
+                                <label for="mayores-de-edad"><strong>Personas mayores de edad:</strong></label>
                             </div>
 
-                            <div>
-                                <input id="old-people-age" type="number" name="old-people-age" class="input-num"
-                                    max="50" min="0" value="">
+                            <div >
+                                <input id="personas-mayores-edad" type="number" name="personas-mayores-edad"
+                                    class="input-num" max="50" min="1">
                             </div>
 
                             <div class="space-data-to-person">
-                                <label id="label-old-people-age" for="">0</label>
+                                <label for="">30</label>
                             </div>
 
                             <div class="space-data-to-person">
@@ -111,48 +115,48 @@
                             </div>
 
                         </div>
-                    </div>
-
-                </div>
-
-                <div class="conteiner-data">
-
-                    <div class="data-dos" id="data-niños">
-
-                        <div class="label-espace">
-                            <label for="children"><strong>Niños:</strong></label>
-                        </div>
-
-                        <div>
-                            <input id="children" type="number" name="children" class="input-num" max="50" min="0"
-                                value="">
-                        </div>
-
-                        <div class="space-data-to-person">
-                            <label id="label-children" for="">0</label>
-                        </div>
-
-                        <div class="space-data-to-person">
-                            <label for="">€. Por persona</label>
-                        </div>
 
                     </div>
 
-                </div>
+                    <div class="conteiner-data">
 
-            </form>
+                        <div class="data-dos" id="data-niños">
 
+                            <div class="label-espace">
+                                <label for="niños"><strong>Niños</strong>:</label>
+                            </div>
+
+                            <div>
+                                <input id="input-niños" type="number" name="niños" class="input-num" max="50" min="1">
+                            </div>
+
+                            <div class="space-data-to-person">
+                                <label for="">15</label>
+                            </div>
+
+                            <div class="space-data-to-person">
+                                <label for="">€. Por persona</label>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </form>
+
+            </div>
         </div>
 
         <div class="titulo-btn-reservar">
 
             <div id="conteiner-btn-agregar">
 
-                <input type="button" value="Agregar" class="btn-agregar" onclick="addData()">
+                <input id="btn" type="submit" name="enviar" value="Agregar" class="btn-agregar">
 
             </div>
 
         </div>
+
 
         <div>
 
@@ -165,15 +169,78 @@
                         <thead>
                             <th>Juego</th>
                             <th>Fecha</th>
-                            <th>Cantidad Adultos</th>
-                            <th>Precio total adultos</th>
-                            <th>Cantidad de Niños</th>
+                            <th>Personas mayores de edad</th>
+                            <th>Precio total adulto</th>
+                            <th>Niños</th>
                             <th>Precio total niño</th>
-                            <th>Precio total por juego </th>
+                            <th>Precio juego </th>
                         </thead>
 
                         <tbody>
 
+                            <tr>
+
+                                <td>
+                                    Juego 1
+                                </td>
+
+                                <td>
+                                    14/07/2023
+                                </td>
+
+                                <td>
+                                    3
+                                </td>
+
+                                <td>
+                                    90 €.
+                                </td>
+
+                                <td>
+                                    1
+                                </td>
+
+                                <td>
+                                    15 €.
+                                </td>
+
+                                <td>
+                                    105 €.
+                                </td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td>
+                                    Juego 2
+                                </td>
+
+                                <td>
+                                    14/07/2023
+                                </td>
+
+                                <td>
+                                    2
+                                </td>
+
+                                <td>
+                                    60 €.
+                                </td>
+
+                                <td>
+                                    0
+                                </td>
+
+                                <td>
+                                    0 €.
+                                </td>
+
+                                <td>
+                                    60 €.
+                                </td>
+
+                            </tr>
                         </tbody>
 
                     </table>
@@ -186,13 +253,8 @@
 
         <div class="conteiner-btn-consultar-reserva">
 
-            <div class="total-price-div">
-                <label for=""><strong>Precio total:</strong> </label>
-                <label id="total-price" for="">0</label>
-            </div>
-
             <div>
-                <input id="btn-consult" type="submit" name="consultar" value="Reservar" class="btn-consult">
+                <input id="btn-consult" type="submit" name="consultar" value="Consultar Reserva" class="btn-consult">
             </div>
 
         </div>
@@ -217,7 +279,6 @@
     <div id="footer">
 
         <div class="container-foot">
-            
             <div class="letrasFooter">
                 <a href="#">Created by "Super-Group"</a>
             </div>
@@ -241,13 +302,11 @@
             <div class="letrasFooter">
                 <a href="#">Politica de privacidad</a>
             </div>
-
         </div>
 
     </div>
 
-    <script src="scripts/reserva.js"></script>
-
+    <link rel="stylesheet" href="scripts/contacto.js" type="text/css">
 </body>
 
 </html>
