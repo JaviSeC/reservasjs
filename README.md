@@ -9,7 +9,9 @@
 
 ## Descripción:
 Hemos creado esta página en la que el cliente hará su reservación en nuestro parque de diversiones <strong> Fantastic World. </strong> Para cualquiera de nuestros juegos podrá ingresar sus datos, cuantas personas adultas, y cuantas menores de edad, para qué día y por supuesto, la fecha, hemos intentado hacer nuestra plataforma de la mejor manera para que sea entendible para ti! :sonrojo: :manos_levantadas:
-
+<br>
+<img src="img/Img-README-Page.png" alt="IMG-Reservas-page">
+<br>
 <h1 align= center> :dart:  :horse_racing: :space_invader: :crown: :clubs: :video_game: :game_die: :guitar: :eyeglasses: :lollipop: :beers: :hamburger: :icecream:  :chocolate_bar:  :doughnut:  :cake:  :candy: :ferris_wheel: :rocket: :bike: :stars: :carousel_horse: :fountain: :rowboat:  :rotating_light: :performing_arts: :circus_tent: :crossed_flags: :triangular_flag_on_post: :checkered_flag: :round_pushpin: </h1>
 
 <p align="center">
